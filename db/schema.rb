@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_10_12_135151) do
   create_table "woos", force: :cascade do |t|
     t.string "category"
     t.string "title"
-    t.string "how_to"
+    t.text "how_to"
     t.string "items"
     t.text "link"
     t.datetime "created_at", precision: 6, null: false
